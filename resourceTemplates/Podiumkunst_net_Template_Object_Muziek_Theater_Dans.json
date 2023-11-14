@@ -1,0 +1,192 @@
+{
+    "o:label": "Podiumkunst.net Template | Object Muziek, Theater & Dans",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Identifier",
+            "o:alternate_comment": "Unieke code",
+            "o:is_required": true,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+            "vocabulary_label": "RDA Manifestation",
+            "local_name": "P30004",
+            "label": "has identifier for manifestation"
+        },
+        {
+            "o:alternate_label": "Titel",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+            "vocabulary_label": "RDA Manifestation",
+            "local_name": "P30156",
+            "label": "has title proper"
+        },
+        {
+            "o:alternate_label": "Omschrijving",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+            "vocabulary_label": "RDA Manifestation",
+            "local_name": "P30137",
+            "label": "has note on manifestation"
+        },
+        {
+            "o:alternate_label": "Werk",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+            "vocabulary_label": "RDA Manifestation",
+            "local_name": "P30135",
+            "label": "has work manifested"
+        },
+        {
+            "o:alternate_label": "Maker(s)",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:muzpp",
+                    "label": "NDE: Muziekweb: persons and groups"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:nta",
+                    "label": "NDE: Dutch thesaurus of author names"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:rkdartists",
+                    "label": "NDE: RKDartists"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikipers",
+                    "label": "NDE: Wikidata: persons"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+            "vocabulary_label": "RDA Manifestation",
+            "local_name": "P30329",
+            "label": "has creator agent of manifestation"
+        },
+        {
+            "o:alternate_label": "Drager",
+            "o:alternate_comment": "https:\/\/www.rdaregistry.info\/termList\/RDACarrierType\/",
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [
+                {
+                    "name": "valuesuggestall:rda:RDACarrierType",
+                    "label": "RDA: Carrier Type"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+            "vocabulary_label": "RDA Manifestation",
+            "local_name": "P30001",
+            "label": "has carrier type"
+        },
+        {
+            "o:alternate_label": "Media Type",
+            "o:alternate_comment": "https:\/\/www.rdaregistry.info\/termList\/RDAMediaType\/",
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [
+                {
+                    "name": "valuesuggestall:rda:RDAMediaType",
+                    "label": "RDA: Media Type"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+            "vocabulary_label": "RDA Manifestation",
+            "local_name": "P30002",
+            "label": "has media type"
+        },
+        {
+            "o:alternate_label": "Datum van publicatie",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+            "vocabulary_label": "RDA Manifestation",
+            "local_name": "P30011",
+            "label": "has date of publication"
+        },
+        {
+            "o:alternate_label": "Uitgever",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:gtaanam",
+                    "label": "NDE: GTAA: names"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:muzpp",
+                    "label": "NDE: Muziekweb: persons and groups"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:muzscp",
+                    "label": "NDE: Muziekschatten: persons"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:rkdartists",
+                    "label": "NDE: RKDartists"
+                },
+                {
+                    "name": "valuesuggest:ndeterms:wikipers",
+                    "label": "NDE: Wikidata: persons"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+            "vocabulary_label": "RDA Manifestation",
+            "local_name": "P30176",
+            "label": "has name of publisher"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/c\/",
+        "vocabulary_label": "RDA Classes",
+        "local_name": "C10007",
+        "label": "manifestation"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+        "vocabulary_label": "RDA Manifestation",
+        "local_name": "P30156",
+        "label": "has title proper"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/m\/",
+        "vocabulary_label": "RDA Manifestation",
+        "local_name": "P30137",
+        "label": "has note on manifestation"
+    }
+}
