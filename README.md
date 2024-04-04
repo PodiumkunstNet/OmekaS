@@ -1,4 +1,4 @@
 # OmekaS
 
 - Sjablonen / Resource Templates
-- Handleiding
+- (binnenkort) Handleiding
