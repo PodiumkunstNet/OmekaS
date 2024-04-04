@@ -1,0 +1,77 @@
+{
+    "o:label": "Podiumkunst.net Template | Personen & Instellingen",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Identifier",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/a\/",
+            "vocabulary_label": "RDA Agent",
+            "local_name": "P50383",
+            "label": "has identifier for agent"
+        },
+        {
+            "o:alternate_label": "Naam",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/a\/",
+            "vocabulary_label": "RDA Agent",
+            "local_name": "P50413",
+            "label": "has preferred name of agent"
+        },
+        {
+            "o:alternate_label": "Naamvariant",
+            "o:alternate_comment": "Bijvoorbeeld een alternatieve schrijfwijze",
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/a\/",
+            "vocabulary_label": "RDA Agent",
+            "local_name": "P50415",
+            "label": "has variant name of agent"
+        },
+        {
+            "o:alternate_label": "Pseudoniem",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/a\/",
+            "vocabulary_label": "RDA Agent",
+            "local_name": "P50428",
+            "label": "has alternate identity of person"
+        },
+        {
+            "o:alternate_label": "Rol",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/a\/",
+            "vocabulary_label": "RDA Agent",
+            "local_name": "P50104",
+            "label": "has profession or occupation"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/c\/",
+        "vocabulary_label": "RDA Classes",
+        "local_name": "C10002",
+        "label": "agent"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/a\/",
+        "vocabulary_label": "RDA Agent",
+        "local_name": "P50413",
+        "label": "has preferred name of agent"
+    }
+}

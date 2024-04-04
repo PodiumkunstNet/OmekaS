@@ -38,6 +38,47 @@
             "label": "has variant title of work"
         },
         {
+            "o:alternate_label": "Soort werk",
+            "o:alternate_comment": "Bijvoorbeeld: muziekwerk, choreografisch werk, tekstwerk, muziektheaterwerk",
+            "o:is_required": true,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [
+                {
+                    "name": "valuesuggestall:rda:RDATerms",
+                    "label": "RDA: Terms"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/w\/",
+            "vocabulary_label": "RDA Work",
+            "local_name": "P10004",
+            "label": "has category of work"
+        },
+        {
+            "o:alternate_label": "Datum",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/w\/",
+            "vocabulary_label": "RDA Work",
+            "local_name": "P10219",
+            "label": "has date of work"
+        },
+        {
+            "o:alternate_label": "Taal",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/w\/",
+            "vocabulary_label": "RDA Work",
+            "local_name": "P10353",
+            "label": "has language of representative expression"
+        },
+        {
             "o:alternate_label": "Maker(s)",
             "o:alternate_comment": null,
             "o:is_required": false,
@@ -71,18 +112,6 @@
             "label": "has creator agent of work"
         },
         {
-            "o:alternate_label": "Soort werk",
-            "o:alternate_comment": "Bijvoorbeeld: muziekwerk, choreografisch werk, tekstwerk, muziektheaterwerk",
-            "o:is_required": true,
-            "o:is_private": false,
-            "o:default_lang": null,
-            "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/w\/",
-            "vocabulary_label": "RDA Work",
-            "local_name": "P10004",
-            "label": "has category of work"
-        },
-        {
             "o:alternate_label": "Omschrijving",
             "o:alternate_comment": null,
             "o:is_required": false,
@@ -91,23 +120,11 @@
             "data_types": [],
             "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/w\/",
             "vocabulary_label": "RDA Work",
-            "local_name": "P10100",
-            "label": "is description of work"
+            "local_name": "P10330",
+            "label": "has note on work"
         },
         {
-            "o:alternate_label": "Taal",
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "o:default_lang": null,
-            "data_types": [],
-            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/e\/",
-            "vocabulary_label": "RDA Expression",
-            "local_name": "P20006",
-            "label": "has language of expression"
-        },
-        {
-            "o:alternate_label": "Datum van publicatie",
+            "o:alternate_label": "Plaats",
             "o:alternate_comment": null,
             "o:is_required": false,
             "o:is_private": false,
@@ -115,8 +132,25 @@
             "data_types": [],
             "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/w\/",
             "vocabulary_label": "RDA Work",
-            "local_name": "P10219",
-            "label": "has date of work"
+            "local_name": "P10218",
+            "label": "has place of origin of work"
+        },
+        {
+            "o:alternate_label": "Communicatievorm",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [
+                {
+                    "name": "valuesuggestall:rda:RDAContentType",
+                    "label": "RDA: Content Type"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/e\/",
+            "vocabulary_label": "RDA Expression",
+            "local_name": "P20001",
+            "label": "has content type"
         }
     ],
     "o:resource_class": {
@@ -134,7 +168,7 @@
     "o:description_property": {
         "vocabulary_namespace_uri": "http:\/\/rdaregistry.info\/Elements\/w\/",
         "vocabulary_label": "RDA Work",
-        "local_name": "P10100",
-        "label": "is description of work"
+        "local_name": "P10330",
+        "label": "has note on work"
     }
 }
